@@ -13,8 +13,8 @@ const App = () => (
   <div className="app-container">
     <div className="responsive-container">
       <div className="app-body">
+        <Header />
         <Switch>
-          <Header />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
